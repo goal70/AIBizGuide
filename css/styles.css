@@ -1294,12 +1294,9 @@ p {
   }
 
   .hero-grid {
-    grid-template-columns:
-      minmax(0, 1fr)
-      minmax(420px, 0.85fr);
-
-    gap: 70px;
-  }
+  grid-template-columns: minmax(0, 0.9fr) minmax(500px, 1.1fr);
+  gap: 65px;
+}
 
   .hero-actions {
     gap: 14px;
